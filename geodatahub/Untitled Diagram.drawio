@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T20:16:13.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="17.4.6" etag="Kd5Jimz_KAwMCcj76_Do" type="github"><diagram id="Aa59W2HO_5IaJqVQzw41">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-17T20:37:20.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5CmsAHVM51ymQemDliJ0" version="17.4.6" type="github">
+  <diagram id="Aa59W2HO_5IaJqVQzw41" name="Page-1">
+    <mxGraphModel dx="1442" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;" edge="1" parent="1" source="0sy-SX7P6dzdr3W1h8FR-3" target="0sy-SX7P6dzdr3W1h8FR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-20" value="HTTPS / Auth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="0sy-SX7P6dzdr3W1h8FR-10">
+          <mxGeometry x="-0.3874" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-23" value="1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="0sy-SX7P6dzdr3W1h8FR-10">
+          <mxGeometry x="-0.2522" y="1" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-3" value="Bank Customer" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Service_Domains.svg;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-15" value="&lt;font color=&quot;#000000&quot;&gt;HTTP / Auth&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="0sy-SX7P6dzdr3W1h8FR-5" target="0sy-SX7P6dzdr3W1h8FR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-25" value="3)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="0sy-SX7P6dzdr3W1h8FR-15">
+          <mxGeometry x="-0.5254" y="2" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-5" value="Shared module&#xa;AddressCheckWebController&#xa;(POST /api/web/addresses/check)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="210" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;" edge="1" parent="1" source="0sy-SX7P6dzdr3W1h8FR-9" target="0sy-SX7P6dzdr3W1h8FR-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-21" value="In-process communication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="0sy-SX7P6dzdr3W1h8FR-11">
+          <mxGeometry x="-0.559" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-24" value="2)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="0sy-SX7P6dzdr3W1h8FR-11">
+          <mxGeometry x="0.2926" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-9" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Matrix Process X&lt;/font&gt;&lt;/b&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.cloud_server" vertex="1" parent="1">
+          <mxGeometry x="210" y="12.600000000000001" width="120" height="106.8" as="geometry" />
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-19" value="HTTPS / Client secret" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="0sy-SX7P6dzdr3W1h8FR-14" target="0sy-SX7P6dzdr3W1h8FR-16">
+          <mxGeometry x="0.1351" y="23" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-26" value="4)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="0sy-SX7P6dzdr3W1h8FR-19">
+          <mxGeometry x="0.0895" y="2" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-14" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Collateral App&lt;/font&gt;&lt;/b&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.cloud_server" vertex="1" parent="1">
+          <mxGeometry x="365" y="310" width="120" height="106.8" as="geometry" />
+        </mxCell>
+        <mxCell id="0sy-SX7P6dzdr3W1h8FR-16" value="&lt;font color=&quot;#000000&quot;&gt;Geo Data Hub&lt;br&gt;External service&lt;br&gt;&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/geo_fence-128.png;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="670" y="299.4" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
